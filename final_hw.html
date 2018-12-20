@@ -13,22 +13,24 @@
   <p>
     今のキャリア
     <select name="ncareer">
-    <option value="ndocomo">docomo</option>
-    <option value="nau">au</option>
-    <option value="nsoftbank">Softbank</option>
-    <option value="nymobile">Y!mobile</option>
-    <option value="nuqmobile">UQ mobile</option>
-    <option value="nother">その他</option>
+     <option value="ndocomo">docomo</option>
+     <option value="nau">au</option>
+     <option value="nsoftbank">Softbank</option>
+     <option value="nymobile">Y!mobile</option>
+     <option value="nuqmobile">UQ mobile</option>
+     <option value="nother">その他</option>
+    </select>
   </p>
   <p>
     変更後のキャリア
     <select name="fcareer">
-    <option value="fdocomo">docomo</option>
-    <option value="fau">au</option>
-    <option value="fsoftbank">Softbank</option>
-    <option value="fymobile">Y!mobile</option>
-    <option value="fuqmobile">UQ mobile</option>
-    <option value="fother">その他</option>
+     <option value="fdocomo">docomo</option>
+     <option value="fau">au</option>
+     <option value="fsoftbank">Softbank</option>
+     <option value="fymobile">Y!mobile</option>
+     <option value="fuqmobile">UQ mobile</option>
+     <option value="fother">その他</option>
+   </select>
   </p>
   <p>
     今の携帯の機種 iPhonとAndroidくらい見分けたい
@@ -38,12 +40,21 @@
     <input type="radio" name="shitadori" value="sshinai">下取りをしない
   </p>
   <p>
+    新しい携帯
+    <input type="radio" name="nphone" value="iphone">iphone
+    <input type="radio" name="nphone" value="android">Android
+    <input type="radio" name="nphone" value="sonota">その他
+  </p>
+  <p>
     通話頻度<br>
     <input type="checkbox" name="tsuuwa" value="shinai">ほとんどしない<br>
     <input type="checkbox" name="tsuuwa" value="family">家族とのみする<br>
     <input type="checkbox" name="tsuuwa" value="5inai">5分いないでする<br>
     <input type="checkbox" name="tsuuwa" value="5ijou">5分以上する<br>
     <input type="checkbox" name="tsuuwa" value="1hour">1時間以上する(月に1回以上)
+  </p>
+  <p>
+    <input type="button" value="確認画面へ" onclick="page1.html">
   </p>
 </body>
 
