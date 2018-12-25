@@ -34,7 +34,7 @@
   </p>
   <p>
     今の携帯の機種 iPhonとAndroidくらい見分けたい
-    <input type="button" id="phone_button" value="写真を認識" onclick="phone_push">
+    <input type="button" id="phone_button" value="写真を認識" onclick="phone_push()">
     <canvas id="phone_canvas" width=256 , height=256></canvas>
   </p>
   <p>
@@ -56,7 +56,8 @@
     <label><input type="checkbox" name="tsuuwa" value="1hour">1時間以上する(月に1回以上)</label>
   </p>
   <p>
-    <input type="button" value="確認画面へ" onclick="idou1()">
+    <input type="button" value="確定する" onclick="push1()">
+    <input type="button" value="確認する" onclick="show1()">
   </p>
 </body>
 
