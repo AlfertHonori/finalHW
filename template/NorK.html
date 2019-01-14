@@ -4,14 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title>変更後のキャリア</title>
-  <script src="../static/js/first_page.js"></script>
-  <link rel="stylesheet" href="docomo.css">
+  <script src="../static/js/NorK.js"></script>
+  <link rel="stylesheet" href="../static/css/first_page.css">
 </head>
 
-<body>
+<body onload="putcarrer_photo()">
   <p id="nowcarrer">今のキャリア</p>
-  <p id="aftercarrer">変更後のキャリア
-  </p>
+  <img id="n_carrer" src="../static/img/docomo.jpg">
+  <p id="aftercarrer">契約するキャリア</p>
+  <span class="btn" id="dbtn1" onclick="docomo();" value="docomo">docomo</span>
+  <span class="btn" id="abtn1" onclick="pass();">au</span>
+  <span class="btn" id="sbtn1" onclick="pass();">Softbank</span>
 
 </body>
 

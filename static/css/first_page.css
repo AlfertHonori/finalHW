@@ -1,4 +1,5 @@
 body {
+  margin-top: 150px;
   background-image: url("../img/ノジマ背景.jpg");
   background-size: cover;
   text-align: center;
@@ -23,6 +24,23 @@ body {
   background-color: #008080;
 }
 
-h1 {
+#btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 250px 250px;
+  background: #FF9966;
+  color: #FFF;
+  width: 300px;
+  height: 300px;
+  line-height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+}
 
+#btn:hover {
+  background-color: #FFCCCC;
 }
