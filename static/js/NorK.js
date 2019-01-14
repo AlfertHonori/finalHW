@@ -5,7 +5,7 @@ function putcarrer_photo(){
 
 function docomo() {
   var carrervalue = localStorage.getItem("carrer");
-  if(carrervalue == docomo){
+  if(carrervalue == "docomo"){
     location.href = "Kagreement.html";
   } else {
     location.href = "Nagreement.html";

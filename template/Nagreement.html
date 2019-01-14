@@ -4,12 +4,56 @@
   <head>
     <meta charset="utf-8">
     <title>乗り換えの見積もり</title>
-    <link rel="stylesheet" href="../static/css/Nagreement.css">
-    <script src="../static/js/Nagreement.js"></script>
+    <link rel="stylesheet" href="../static/css/agreement.css">
+    <script src="../static/js/agreement.js"></script>
   </head>
 
   <body>
     <h1>乗り換えの見積もり(仮)</h1>
+    <h3>店頭で頭金といたしまして、3240円がかかります。(オプション加入で0円)</h3>
+    <h3>初月のみ手続き料金として、3240円が引き落とされます。</h3>
+
+    <p>
+      <h2>今の携帯</h2>
+      <label><input type="radio" name="omashin" value="o_iphone">iPhone</label>
+      <label><input type="radio" name="omashin" value="o_android">Android</label>
+      <label><input type="radio" name="omashin" value="o_sonota">その他</label>
+    </p>
+
+    <p>
+      <h2>新しい携帯</h2>
+      <label><input type="radio" name="nmashin" value="n_iphone">iPhone</label>
+      <label><input type="radio" name="nmashin" value="n_android">Android</label>
+      <label><input type="radio" name="nmashin" value="n_sonota">その他</label>
+    </p>
+
+    <p>
+     <h2>下取り</h2>
+     <label><input type="radio" name="shitadori" value="ssuru">下取りをする</label>
+     <label><input type="radio" name="shitadori" value="sshinai">下取りをしない</label>
+    </p>
+
+    <p>
+      <h2>通話頻度</h2>
+      <label><input type="checkbox" name="tsuuwa" value="shinai">ほとんどしない</label><br>
+      <label><input type="checkbox" name="tsuuwa" value="family">家族とのみする</label><br>
+      <label><input type="checkbox" name="tsuuwa" value="5inai">5分いないでする</label><br>
+      <label><input type="checkbox" name="tsuuwa" value="5ijou">5分以上する</label><br>
+      <label><input type="checkbox" name="tsuuwa" value="1hour">1時間以上する(月に1回以上)</label>
+    </p>
+
+    <p>
+      <h2>データ使用量</h2>
+      <label><input type="radio" name="data" value="u_1">1GB以下</label>
+      <label><input type="radio" name="data" value="u_3">3GB以下</label>
+      <label><input type="radio" name="data" value="u_5">5GB以下</label>
+      <label><input type="radio" name="data" value="u_10">10GB以下</label>
+      <label><input type="radio" name="data" value="u_15">15GB以下</label>
+      <label><input type="radio" name="data" value="manth">月によって異なる</label>
+    </p>
+
+    <a href="result.html"><input type="button" onclick="putmemori()" value="確定する"></a>
+
   </body>
 
 </html>
